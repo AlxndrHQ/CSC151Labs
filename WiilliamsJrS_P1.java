@@ -3,13 +3,12 @@
 // Tutors?
 
 import java.util.*;
-import java.lang.*;
 import java.text.SimpleDateFormat; 
 
 
 public class WiilliamsJrS_P1
 {
-    public static void main
+    public static void main(String[] args)
     {
         System.out.println("Fall 2019 -- Program 1 by Steven Williams Jr");
 
@@ -48,7 +47,6 @@ public class WiilliamsJrS_P1
                             );
 
         System.out.println("Please enter your hometown (City and State): ");
-        keyboard.nextLine();// clears buffer
         String hometown = keyboard.nextLine();
 
         System.out.println(name + ", your hometown is " + hometown);
