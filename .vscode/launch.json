@@ -1,0 +1,106 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_Lab2<CSC151Labs_f5567116>",
+            "request": "launch",
+            "mainClass": "CSC151Labs.WilliamsJrS_Lab2",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_Lab3<CSC151Labs_f5567116>",
+            "request": "launch",
+            "mainClass": "CSC151Labs.WilliamsJrS_Lab3",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_Lab4<CSC151Labs_f5567116>",
+            "request": "launch",
+            "mainClass": "CSC151Labs.WilliamsJrS_Lab4",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_Lab5<CSC151Labs_f5567116>",
+            "request": "launch",
+            "mainClass": "CSC151Labs.WilliamsJrS_Lab5",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WiilliamsJrS_P1<CSC151Labs_f5567116>",
+            "request": "launch",
+            "mainClass": "WiilliamsJrS_P1",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_Lab3<CSC151Labs_f5567116>(1)",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_Lab3",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_Lab4<CSC151Labs_f5567116>(1)",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_Lab4",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_Lab5<CSC151Labs_f5567116>(1)",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_Lab5",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_Lab6<CSC151Labs_f5567116>",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_Lab6",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_Lab7<CSC151Labs_f5567116>",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_Lab7",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_Lab8<CSC151Labs_f5567116>",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_Lab8",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_P2<CSC151Labs_f5567116>",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_P2",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_P2v2<CSC151Labs_f5567116>",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_P2v2",
+            "projectName": "CSC151Labs_f5567116"
+        }
+    ]
+}
