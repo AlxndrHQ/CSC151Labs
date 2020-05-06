@@ -110,5 +110,7 @@ public class WilliamsJrS_Lab5
         // Prints all values from most recent variables
         System.out.println("\nYour loan amount was " + loanAmount
                             + ". \nAs a result, you will pay $" + result2 + " in interest over the life of the loan");
+        
+        keyboard.close();// Closes keyboard 
     }
 }

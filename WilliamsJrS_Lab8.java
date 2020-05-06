@@ -52,5 +52,7 @@ public class WilliamsJrS_Lab8
         // adds up all of the room's areas together 
         double totalArea = kitchen.getArea() + bedRoom.getArea() + livingRoom.getArea() + diningRoom.getArea() + bathRoom.getArea();
         System.out.println("The total area of the house is " + totalArea);
+        
+        keyboard.close();// Closes keyboard 
     }
 }
