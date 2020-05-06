@@ -108,6 +108,7 @@ public class WilliamsJrS_Lab3
         System.out.println(first + " " + second + " " + myNewString);
         
         System.out.println("Before replacement: " + first + " after replacement: " + first.replace('r', 'i'));
-
+        
+        keyboard.close();// Closes keyboard 
     }
 }

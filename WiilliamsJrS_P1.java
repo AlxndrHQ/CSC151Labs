@@ -60,5 +60,7 @@ public class WiilliamsJrS_P1
         Date date = new Date();
 
         System.out.println(formatter.format(date));
+        
+        keyboard.close();// Closes keyboard 
     }
 }

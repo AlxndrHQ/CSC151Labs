@@ -4,7 +4,20 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WilliamsJrS_P3v2",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_P3v2",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WilliamsJrS_P3",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_P3",
+            "projectName": "CSC151Labs_f5567116"
+        },
         {
             "type": "java",
             "name": "Debug (Launch) - Current File",

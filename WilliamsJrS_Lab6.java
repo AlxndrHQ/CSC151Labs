@@ -51,6 +51,8 @@ public class WilliamsJrS_Lab6
         // Calculates the student's average for the semester
         double semesterAverage = (math.getCourseScore() + history.getCourseScore() + programming.getCourseScore() + physics.getCourseScore() + chemistry.getCourseScore())/ 5;// adds up all courseScores and divides by 5
         System.out.println("The student's average for the current semester is " + semesterAverage);
+        
+        keyboard.close();// Closes keyboard 
     }
 
 }

@@ -77,5 +77,6 @@ public class WilliamsJrS_Lab4
       System.out.println("The box is " + length + " inches long, " + width + " inches wide, and " + height + " inches high. " 
                             + "\nThe surface area of the box is " + surface + " square inches and its volume is " + volume + " cubic inches ");   
 
+      keyboard.close();// Closes keyboard 
   }  
 }

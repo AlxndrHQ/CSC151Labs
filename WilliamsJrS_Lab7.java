@@ -61,5 +61,7 @@ public class WilliamsJrS_Lab7
         Date date = new Date();  
 
         System.out.println("Lab 6 Program was created by Steven Alexander, [ID], " + formatter.format(date) + ".");
+        
+        keyboard.close();// Closes keyboard 
     }
 }

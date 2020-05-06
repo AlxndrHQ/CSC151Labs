@@ -3,7 +3,7 @@ public class WilliamsJrS_ServiceQuote
     private double partsCharges;
     private double laborCharges;
 
-    public ServiceQuote()
+    public void ServiceQuote()
     {
         partsCharges = 0.0;
         laborCharges = 0.0;

@@ -4,7 +4,7 @@ public class WilliamsJrS_Customer
     private String address;
     private String phone;
 
-    public Customer()
+    public void Customer()
     {
         name = null;
         address = null;

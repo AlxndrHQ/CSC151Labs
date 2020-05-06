@@ -4,7 +4,7 @@ public class WilliamsJrS_Rectangle
     private double length;
     private double width;
 
-    public Rectangle(String aName, double aLength, double aWidth)
+    public void Rectangle(String aName, double aLength, double aWidth)
     {
         name = aName;
         length = aLength;
