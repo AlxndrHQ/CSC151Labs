@@ -77,5 +77,7 @@ public class WilliamsJrS_P2
         secondStudent.switchMajor(major);
 
         System.out.println(secondStudent.getName() + "'s updated information: " + secondStudent.toString());
+        
+        keyboard.close();// closes keyboard object
     }
 }

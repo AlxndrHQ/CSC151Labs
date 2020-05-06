@@ -1,4 +1,3 @@
-import java.text.DecimalFormat;// import decimal format
 import java.util.*;// imports util class
 
 // use a do-while loop to calc new student and their information 
@@ -51,5 +50,7 @@ public class WilliamsJrS_P2v2
                 stack.pop();// removes each item from stack after it has been printed
             }
         }
+
+        keyboard.close();// closes keyboard object
     }
 }
