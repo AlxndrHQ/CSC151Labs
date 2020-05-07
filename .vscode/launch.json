@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IceCreamDriver2",
+            "request": "launch",
+            "mainClass": "IceCreamDriver2",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IceCreamDriverv2",
+            "request": "launch",
+            "mainClass": "IceCreamDriverv2",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IceCreamDriver",
+            "request": "launch",
+            "mainClass": "IceCreamDriver",
+            "projectName": "CSC151Labs_f5567116"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - WilliamsJrS_P3v2",
             "request": "launch",
             "mainClass": "WilliamsJrS_P3v2",
