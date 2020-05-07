@@ -61,7 +61,7 @@ public class IceCream {
     // needs calculate/get change
     public void calculateChange(double bill,
 
-    double calculateTotal())
+    double calculateTotal()
     {
         change = this.bill - calculateTotal();
     }

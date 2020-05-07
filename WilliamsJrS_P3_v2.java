@@ -2,7 +2,7 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class WilliamsJrS_P3v2
+public class IceCreamDriver
 {
     public static void main(String[] args)
     {
@@ -26,6 +26,7 @@ public class WilliamsJrS_P3v2
         // Stack<IceCream> stack = new Stack();// creates new stack to hold each order
     
 
+        /*
         String flavor = null;// represents the ice-cream flavor you order
         int noScoops = 0;// represents number of ice-cream scoops you order
         float scoopCost = 0.0F;// represents cost of ice-cream per scoop, based on ice-cream flavor
@@ -37,7 +38,8 @@ public class WilliamsJrS_P3v2
         System.out.println("***Welcome to The Ice Cream Stand***");
 
         String again = "yes";// used to determine if user wants to run test again or not 
-
+        */
+        /*
         do
         {
             System.out.println("What is the name for this order?");
@@ -124,10 +126,13 @@ public class WilliamsJrS_P3v2
             // IceCream orderName = new IceCream(name, flavor, noScoops, scoopCost, bill, change);
             // stack.add(orderName);
 
+            /*
             System.out.println("Would you like to Place another order? (Only enter \"yes\" or \"no\")");
+            */
+        /*    
         } while (!(again.equalsIgnoreCase("yes")));
         
-
+        */
 
         System.out.println("\nThank you for visiting the Ice-cream stand! \nCome again soon.");
 
