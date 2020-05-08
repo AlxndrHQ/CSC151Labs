@@ -3,8 +3,10 @@ import java.util.Scanner;
 import java.util.Stack;
 import java.lang.*;
 
-public class IceCreamDriver2 {
-    public static void main(String[] args) {
+public class WilliamsJrS_P4
+{
+    public static void main(String[] args)
+    {
         /*
          * For v2: - instantiate an object from the iceCream class to store the
          * customers data - at the end, ask if the user would like to place another
