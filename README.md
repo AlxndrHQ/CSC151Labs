@@ -28,7 +28,7 @@ To Do:
 - [Completed] need to find a loop that allows the user to exit the store, even if they can afford to buy another scoop (line 196)
 - [Completed]: if you overpay, and say you dont want another scoop, there is no way to exit
 - [Completed]: currently if you overpay it tells you that you owe an additional $- negative value. Create if/else or switch statement that deals with negative values
-- [TODO]: ensure that a name is entered for the order (cannot be blank)
+- [Completed]: ensure that a name is entered for the order (cannot be blank)
 - [TODO]:
 
 1. instantiate an object from iceCream class 
