@@ -29,10 +29,16 @@ To Do:
 - [Completed]: if you overpay, and say you dont want another scoop, there is no way to exit
 - [Completed]: currently if you overpay it tells you that you owe an additional $- negative value. Create if/else or switch statement that deals with negative values
 - [Completed]: ensure that a name is entered for the order (cannot be blank)
-- [TODO]:
+- [Future]:
 
-1. instantiate an object from iceCream class 
+1. instantiate an object from iceCream class
 2. create setters and getters to store the order name, order number, flavor, number of scoops, total price, number of items added, number of scoops tenders added, subtotals
+
+-[TODO]: add the ability to enter other flavors to your order.
+
+-[Future]: guard against foreign curencies (unicode validation)
+-[Future]: payment verification
+-[Future]: offer buyers rewards based on how long they have been in our system 
 
 ## IceCreamDriver2
 
