@@ -29,6 +29,8 @@ To Do:
 - [Completed]: if you overpay, and say you dont want another scoop, there is no way to exit
 - [Completed]: currently if you overpay it tells you that you owe an additional $- negative value. Create if/else or switch statement that deals with negative values
 - [Completed]: ensure that a name is entered for the order (cannot be blank)
+-[Completed]: print a reciept for: name, flavor, noScoops, scoopCost, totalCost, userTender, and change
+-[TODO]: Find out why when you have leftover cash, and you say yes to another scoop it takes 2 scoops initially then just 1
 - [Future]:
 
 1. instantiate an object from iceCream class
