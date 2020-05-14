@@ -3,7 +3,9 @@ public class IceCream {
     private int noScoops;
     private String flavor;// flavor is represented by a string
     private double scoopCost;
+    private double totalCost;
     private double bill;
+    private double userTender;
     private double change;
 
     // constructs object for name, string flavor, number of scoops, scoop cost,
@@ -15,7 +17,7 @@ public class IceCream {
      * this.scoopCost = scoopCost; this.bill = bill; this.change = change; }
      */
 
-    // needs set/get name
+    // set/get name
     public void setName(String name) {
         this.name = name;// sets the name
     }
@@ -24,7 +26,7 @@ public class IceCream {
         return name;// returns the name
     }
 
-    // needs set/get noScoops
+    // set/get noScoops
     public void setScoops(int noScoops) {
         this.noScoops = noScoops;// sets number of scoops
     }
@@ -33,7 +35,7 @@ public class IceCream {
         return noScoops;// returns number of scoops
     }
 
-    // needs set/get flavor
+    // set/get flavor
     public void setFlavor(String flavor)// passes through a string for flavor
     {
         this.flavor = flavor;// sets flavor using String
@@ -43,27 +45,23 @@ public class IceCream {
         return flavor;// returns String representing flavor
     }
 
-    // needs set/get cost
-    public void setCost(double cost) {
+    // set/get scoopCost
+    public void setScoopCost(double cost) {
         scoopCost = cost;
     }
 
-    public double getCost() {
+    public double getScoopCost() {
         return scoopCost;
     }
 
-    // needs calculate/get total
-    public double calculateTotal(String sFlavor, double getCost) {
-        // return double.parseDouble(sFlavor) * getCost();
-        return Double.parseDouble(sFlavor) * getCost();// multiplies integer representing cost * cost for the item
+    // calculate/get totalCost based on noScoops and scoopCost
+    public double calculateTotal(int noScoops, double scoopCost) {
+        return this.noScoops * this.scoopCost;// multiplies number of scoops * scoopCost
     }
 
-    // needs calculate/get change
-    public void calculateChange(double bill,
-
-    double calculateTotal()
-    {
-        change = this.bill - calculateTotal();
+    // calculate/get change based on userTender
+    public void calculateChange(double bill, double totalCost) {
+        change = this.bill - this.totalCost;
     }
 
     public double getChange() {

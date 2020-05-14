@@ -1,0 +1,6 @@
+Joe Smith 20 31 25 33 43
+Kate Watson 29 29 18 20 75
+Kim Anderson 20 20 25 23 33
+Pete Johnson 29 28 27 35 23
+Jill Thompson 40 30 20 33 21
+Annett Roster 20 15 25 27 22

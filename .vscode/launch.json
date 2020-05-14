@@ -1,0 +1,75 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WilliamsJrS_P5v2",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_P5v2"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<artifactProject>",
+            "request": "launch",
+            "mainClass": "newProject.App",
+            "projectName": "artifactProject"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IceCreamDriverv3",
+            "request": "launch",
+            "mainClass": "IceCreamDriverv3"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_Lab2",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_Lab2"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_Lab3",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_Lab3"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_P1",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_P1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_P1v2",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_P1v2"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_P4",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_P4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_P5",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_P5"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WilliamsJrS_P5_Original",
+            "request": "launch",
+            "mainClass": "WilliamsJrS_P5_Original"
+        }
+    ]
+}

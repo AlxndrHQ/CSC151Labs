@@ -6,7 +6,7 @@ import java.util.*;
 import java.text.SimpleDateFormat; 
 
 
-public class WiilliamsJrS_P1
+public class WilliamsJrS_P1
 {
     public static void main(String[] args)
     {
