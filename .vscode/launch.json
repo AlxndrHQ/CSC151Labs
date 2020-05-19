@@ -6,6 +6,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CSC152_P1",
+            "request": "launch",
+            "mainClass": "CSC152_P1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - student",
+            "request": "launch",
+            "mainClass": "student"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - WilliamsJrS_P5v2",
             "request": "launch",
             "mainClass": "WilliamsJrS_P5v2"

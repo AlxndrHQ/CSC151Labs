@@ -1,0 +1,7 @@
+Jenny	Johnson 20 27 
+Tommy	Lee-Jones   25 23 
+Sara	Cohen   24 30 
+Tom Brown   19 15 
+Janah	Plump   29 22 
+Stephany	Spills  21 30 
+Penny	Manny   12 15 
