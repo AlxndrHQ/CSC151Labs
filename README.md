@@ -1,10 +1,9 @@
 # CSC151Labs
 
-CSC 151 Labs
+CSC 151/2 Labs
 
 This will be a collection of all of the labs, projects, and classes that I was given during CSC151 & CSC152.
-
-In this repo I will be recompleting all of my old assignments.
+I will be recompleting all of my old assignments.
 
 ## CSC 152 - Programming Assignment 3
 
@@ -61,9 +60,9 @@ In this repo I will be recompleting all of my old assignments.
 - [Completed] d. Ask the user the location of an element that they want to delete next (note that the user will only enter integer value, positive, and within the subscript index). If they enter a negative value or outside of the array that have value (different than the length of array), then you will have to ask them to re-enter. Their first element is 1, not zero like in the program.
 - [Completed] e. Once you get a location of element that the user want to delete (that within a range), then you will (i) print the value of that element, (b) delete that element, and (c) print the XXXX_UnfilledArray array after deletion as well as stating how many elements in the array that are filled (not the actual size).
 
-## sortNsearch.java
+## sortAndSearch.java
 
-[TODO] This class, you will take the source codes that we discussed about sorting and searching (from your textbook). Make sure that they are static methods so you can call them directly from your driver.
+[Completed] This class, you will take the source codes that we discussed about sorting and searching (from your textbook). Make sure that they are static methods so you can call them directly from your driver.
 
 - IntSequentialSearch : this is a sequential search method with 2 parameters (integer array and integer value for search) and then will return the position where the first occurrence is found or -1 when it is not found.
 - IntBinarySearch_XXXX : this is a binary search method with 2 parameters (sorted integer array and integer value for search) and then will return the position where the first occurrence is found or -1 when it is not found.
@@ -73,62 +72,42 @@ In this repo I will be recompleting all of my old assignments.
 
 ## CSC 152 - Programming Assignment 2
 
-[Completed] You must name the class Person.java, Student.java, and Faculty.java
-[Completed] You must name your driver LastnameFirstINIT*XXXX_P2.java (where XXXX is your last 4 digit of student
-ID)
-[Completed] Create 5 objects: one for each constructor (1 Person object, 2 Student objects, and 2 Faculty objects)
-[Person will have a default money, and then you need to use random number to generate any number
-between 300 and 800 for other objects – make sure to re-generate the value for each object]
-SHOULD NOT have repeated name. Hard-Code the information in your driver, DO NOT ask
-anything from Keyboard!!!
-[Completed] i. Each object you created, you have prefix with LastnameFirstINIT_XXXX* for example, a
-variable for the first student object could be LastnameFirstINIT_XXXX_Stu1 [make sure that
-the variable name make sense, i.e. have meaning][completed] ii. One student should have your information (note that an object for Person class should not be your
-name, all 5 object should have different information) and another is one of your peer (friend) that
-are not in CSC 152 class
-[Completed] iii. One faculty should be your one of your MATH instructor or another CSC course that not CSC
-152 instructor (could be your CSC 151 Lab instructor from last semester). If you do not have any
-other course, then go to MATH department website and pick one of faculty.
-[Completed] iv. Another faculty should be one of your non-Science class (e.g. English, History, etc.) you taking
-this semester. If you do not take other course, then go to ENGLISH or HISTORY department
-website and pick one of faculty.
+- [Completed] You must name the class Person.java, StudentP.java, and Faculty.java
+- [Completed] You must name your driver LastnameFirstINIT\*XXXX_P2.java (where XXXX is your last 4 digit of student ID)
+- [Completed] Create 5 objects: one for each constructor (1 Person object, 2 Student objects, and 2 Faculty objects) [Person will have a default money, and then you need to use random number to generate any number between 300 and 800 for other objects – make sure to re-generate the value for each object] SHOULD NOT have repeated name. Hard-Code the information in your driver, DO NOT ask anything from Keyboard!!!
+- [Completed] i. Each object you created, you have prefix with LastnameFirstINIT_XXXX\* for example, a variable for the first student object could be LastnameFirstINIT_XXXX_Stu1 [make sure that the variable name make sense, i.e. have meaning]
+- [completed] ii. One student should have your information (note that an object for Person class should not be your name, all 5 object should have different information) and another is one of your peer (friend) that are not in CSC 152 class
+- [Completed] iii. One faculty should be your one of your MATH instructor or another CSC course that not CSC 152 instructor (could be your CSC 151 Lab instructor from last semester). If you do not have any other course, then go to MATH department website and pick one of faculty.
+- [Completed] iv. Another faculty should be one of your non-Science class (e.g. English, History, etc.) you taking this semester. If you do not take other course, then go to ENGLISH or HISTORY department website and pick one of faculty.
 
-[Completed] b. Print all 5 objects information on the screen – design your own output screen, make sure that all data
-has appropriate labels.
-[Completed] c. On your friend student object (the 2nd Student object), complete the following
-[Completed] i. Change Major:: Ask user to enter new major, and based on what user input, then you will use
-appropriate method to change the student’s major
-[Completed] ii. Then, call shop( ) method on this student, with the value of your last 2 digit of students ID as the
-spending amount. Print current status of this student object.
+- [Completed] b. Print all 5 objects information on the screen – design your own output screen, make sure that all data has appropriate labels.
+- [Completed] c. On your friend student object (the 2nd Student object), complete the following
+- [Completed] i. Change Major:: Ask user to enter new major, and based on what user input, then you will use appropriate method to change the student’s major
+- [Completed] ii. Then, call shop( ) method on this student, with the value of your last 2 digit of students ID as the spending amount. Print current status of this student object.
 
-[Completed] iii. Then, call work( ) method with a random number of hours between 30 and 50 (include) and
-payrate of \$12.50. Print the current status of this student object.
-[Completed] iv. Note, you will print the updated information of this student object – after changing major, after
-shop, and after work (each time).
+- [Completed] iii. Then, call work( ) method with a random number of hours between 30 and 50 (include) and payrate of \$12.50. Print the current status of this student object.
+- [Completed] iv. Note, you will print the updated information of this student object – after changing major, after shop, and after work (each time).
 
-## Faculty.java
+### Faculty.java
 
-A Faculty class is inherited from a Person class (see UML diagram)
-[Completed]: 2 additional instance data: department, position (both are String)
-[Completed]: 2 constructors: one with all 6 attributes and another only 4 attributes required in Person class
-[Completed]: Methods: getDepartment, setDepartment, getPosition, setPosition; ; need to override toString to include data
-in Faculty class
+- A Faculty class is inherited from a Person class (see UML diagram)
+- [Completed]: 2 additional instance data: department, position (both are String)
+- [Completed]: 2 constructors: one with all 6 attributes and another only 4 attributes required in Person class
+- [Completed]: Methods: getDepartment, setDepartment, getPosition, setPosition; ; need to override toString to include data in Faculty class
 
-## Student2.java
+### StudentP.java
 
-A Student class is inherited from a Person class (see UML diagram)
-[Completed]: 2 additional instance data: major, gpa (String and double)
-[Completed]: 2 constructors: one with all 6 attributes and another only 4 attributes required in Person class
-[Completed]: Methods: getMajor, setMajor, getGpa, setGpa; need to override toString to include data in Student class
+- A Student class is inherited from a Person class (see UML diagram)
+- [Completed]: 2 additional instance data: major, gpa (String and double)
+- [Completed]: 2 constructors: one with all 6 attributes and another only 4 attributes required in Person class
+- [Completed]: Methods: getMajor, setMajor, getGpa, setGpa; need to override toString to include data in Student class
 
-## Person.java
+### Person.java
 
-[Completed]: Create 2 constructor, the first constructor has 4 parameter – firstname, lastname, yearOfBirth, money Set GPA to 0.0, major to “Undeclared”, and minor to “No Minor”
-[Completed]: b. the 2nd constructor has 6 parameters -- firstname, lastname, yearOfBirth, money, major, and gpa. Then,
-set minor to “No Minor”
-[Completed]: c. Implement appropriate accessor and mutator methods as shown on UML diagram.
-[Completed]: d. Override toString method to show all attributes with TAB delimited, except firstname and lastname that
-will separate by a space. [use toString method from super class as the starting]
+- [Completed]: Create 2 constructor, the first constructor has 4 parameter – firstname, lastname, yearOfBirth, money Set GPA to 0.0, major to “Undeclared”, and minor to “No Minor”
+- [Completed]: b. the 2nd constructor has 6 parameters -- firstname, lastname, yearOfBirth, money, major, and gpa. Then, set minor to “No Minor”
+- [Completed]: c. Implement appropriate accessor and mutator methods as shown on UML diagram.
+- [Completed]: d. Override toString method to show all attributes with TAB delimited, except firstname and lastname that will separate by a space. [use toString method from super class as the starting]
 
 ## CSC 152 – Programming Assignment 1
 
@@ -159,54 +138,61 @@ will separate by a space. [use toString method from super class as the starting]
   You can use any scores between 20-30 for score1 and score2.
   RE-RUN your program and take another screenshot of the output. [So, you should have 2 screenshot, one is with the original data, and the second one is of the new data set once you add another record to your data file] -[Completed]: print student information to CSC152_P1Output.txt
 
-[Future] -[Completed] set new name (First/Last) -[Completed] get new name (First/Last) -[Completed] set new scores (setScores) -[Completed] configure average and message for aStudent object -[Completed] set newScore3 for each aStudent object -[Completed] set newAverage for each aStudent object
+[Future]
 
-## WilliamsJrS_P5v2
+- [Completed] set new name (First/Last)
+- [Completed] get new name (First/Last)
+- [Completed] set new scores (setScores)
+- [Completed] configure average and message for aStudent object
+- [Completed] set newScore3 for each aStudent object
+- [Completed] set newAverage for each aStudent object
 
-[TODO] Overall:
+## CSC151_P5v2
 
-- The data file, each row representing a record of student. It contains first name, last name, and 5 quizzes score. Your task is to read these data from an input file and then calculate the quiz total and average for each student as well as the class statistics, for min score, max score, and average score for each quiz. -[Completed]: read name, and score from file for each student -[Completed]: calculate the quiz total and average for each student -[Completed]: calculate the class min score, max score, & average score
+[Completed] Overall:
 
-- Your task is to read these data from an input file and then calculate the quiz total and average for each student as well as the class statistics, for min score, max score, and average score for each quiz. -[Completed]: Need quiz total and average for each student
+- The data file, each row representing a record of student. It contains first name, last name, and 5 quizzes score. Your task is to read these data from an input file and then calculate the quiz total and average for each student as well as the class statistics, for min score, max score, and average score for each quiz.
+- [Completed]: read name, and score from file for each student
+- [Completed]: calculate the quiz total and average for each student
+- [Completed]: calculate the class min score, max score, & average score
 
-- (1) Read a list of persons from a file (given on blackboard, “LASTNAME_Scores.txt” – replace LASTNAME with your last name for this program) – using Scanner object, Each line contains 7 columns: first_name, last_name, and 5 quizzes scores. -[Completed]: use scanner object to read file "WilliamsJr_Scores.txt"
+- Your task is to read these data from an input file and then calculate the quiz total and average for each student as well as the class statistics, for min score, max score, and average score for each quiz.
+- [Completed]: Need quiz total and average for each student
 
-- (2) For each student and scores in the file, the program will (a) calculate each student total score and average score (only 2 decimal point) -[Completed]: calculate each students total score and average score (round to 2 decimal places)
+- (1) Read a list of persons from a file (given on blackboard, “LASTNAME_Scores.txt” – replace LASTNAME with your last name for this program) – using Scanner object, Each line contains 7 columns: first_name, last_name, and 5 quizzes scores.
+- [Completed]: use scanner object to read file "WilliamsJr_Scores.txt"
 
-- (3) At the end, the program will print out the statistics summary of this class (a) min average score for this class (b) max average score for this class (c) average for this class (d) total number of students -[Completed]: Print class min average score (lowest students average) -[Completed]: Print class max average score (highest students average) -[Completed]: Print class average score (all students average) -[Completed]: Print total number of students in class
+- (2) For each student and scores in the file, the program will (a) calculate each student total score and average score (only 2 decimal point)
+- [Completed]: calculate each students total score and average score (round to 2 decimal places)
+
+- (3) At the end, the program will print out the statistics summary of this class (a) min average score for this class (b) max average score for this class (c) average for this class (d) total number of students
+- [Completed]: Print class min average score (lowest students average)
+- [Completed]: Print class max average score (highest students average)
+- [Completed]: Print class average score (all students average)
+- [Completed]: Print total number of students in class
 
 - (4) You will also write the exact same output you print on the screen to a file call, LastnameFirstInit_P5Output.txt -[Completed]: write stats to file: "WilliamsJrS_P5Output.txt"
 
 [Future]:
 
 - Create setters and getters for this program
-  [TODO]Optimize: calculating class average
-  [TODO]min score
-  [TODO]max score
-  [TODO]class min average score
-  [TODO]class max average score
+  - [TODO]Optimize: calculating class average
+  - [TODO]min score
+  - [TODO]max score
+  - [TODO]class min average score
+  - [TODO]class max average score
 
-## WilliamsJrS_P5
+## CSC151_P5
 
 [TODO] Overall:
 
 - Your task is to read these data from an input file and then calculate the quiz total and average for each student as well as the class statistics, for min score, max score, and average score for each quiz.
 
-[COMPLETED] 1st:
-
-- read a list of persons from a file using Scanner object. Each line contains 7 columns: first_name, last_name, and 5 quizzes scores
-
-[COMPLETED] 2nd:
-
-- For each student and scores in the file, the program will (a) calculate each student's total score and average score (only 2 decimal points)
-
-[Completed] 3rd:
-
-- At the end, the program will print out the statistics summary of this class (a) min average score for this class (b) max average score for this class (c) average for this class (d) total number of students 1. Needs a counter for all the scores of the class (classScoreTotal) 2. Needs a counter for minimum average (classMinAverage) 3. Needs a counter for maximum average (classMaxAverage) 4. Needs a counter for total number of students (classStudentTotal) -[Completed]: needs to get accurate reading of min and max values from each student
-
-[Completed] 4th:
-
-- You will also write the exact same output you print on the screen to a file called, LastnameFirstInit_P5Output.txt
+- [COMPLETED] 1st: read a list of persons from a file using Scanner object. Each line contains 7 columns: first_name, last_name, and 5 quizzes scores
+- [COMPLETED] 2nd: For each student and scores in the file, the program will (a) calculate each student's total score and average score (only 2 decimal points)
+- [Completed] 3rd: At the end, the program will print out the statistics summary of this class (a) min average score for this class (b) max average score for this class (c) average for this class (d) total number of students 1. Needs a counter for all the scores of the class (classScoreTotal) 2. Needs a counter for minimum average (classMinAverage) 3. Needs a counter for maximum average (classMaxAverage) 4. Needs a counter for total number of students (classStudentTotal)
+- [Completed]: needs to get accurate reading of min and max values from each student
+- [Completed] 4th: You will also write the exact same output you print on the screen to a file called, LastnameFirstInit_P5Output.txt
 
 ## IceCream.java
 
@@ -219,18 +205,14 @@ will separate by a space. [use toString method from super class as the starting]
 - [completed] calculateTotal
 - [completed] change
 
-[TODO]: Find a way to calculateTotal using the flavorCost \* noScoops
+- [TODO]: Find a way to calculateTotal using the flavorCost \* noScoops
+- [TODO]: create the ability to instantiate an object from this IceCream class into the driver
+- [TODO]: create a function to: caculate change
 
-[TODO]: create the ability to instantiate an object from this IceCream class into the driver
+## CSC151_P4.java
 
-[TODO]: create a function to:
-
-- caculate change
-
-## WilliamsJrS_P4
-
-This is a continuation of IceCreamDriver2.
-This file will offer input validation:
+- This is a continuation of IceCreamDriver2.
+- This file will offer input validation:
 
 Objectives:
 
@@ -245,24 +227,25 @@ Objectives:
 
 Deliverables:
 
-[Completed] while change > scoopCost && the user said yes, noScoop++. totalCost = scoopCost \* noScoops. Subtract that particular scoopCost from the change that we currently have[Completed] need to find a loop that allows the user to exit the store, even if they can afford to buy another scoop (line 196)
-[Completed]: if you overpay, and say you dont want another scoop, there is no way to exit
-[Completed]: currently if you overpay it tells you that you owe an additional \$- negative value. Create if/else or switch statement that deals with negative values
-[Completed]: ensure that a name is entered for the order (cannot be blank)
-[Completed]: print a reciept for: name, flavor, noScoops, scoopCost, totalCost, userTender, and change -[TODO]: Find out why when you have leftover cash, and you say yes to another scoop it takes 2 scoops initially then just 1
+- [Completed] while change > scoopCost && the user said yes, noScoop++. totalCost = scoopCost \* noScoops. Subtract that particular scoopCost from the change that we currently have
+- [Completed] need to find a loop that allows the user to exit the store, even if they can afford to buy another scoop (line 196)
+- [Completed]: if you overpay, and say you dont want another scoop, there is no way to exit
+- [Completed]: currently if you overpay it tells you that you owe an additional \$- negative value. Create if/else or switch statement that deals with negative values
+- [Completed]: ensure that a name is entered for the order (cannot be blank)
+- [Completed]: print a reciept for: name, flavor, noScoops, scoopCost, totalCost, userTender, and change -[TODO]: Find out why when you have leftover cash, and you say yes to another scoop it takes 2 scoops initially then just 1
 
-[Future]:
+- [Future]:
 
-1. instantiate an object from iceCream class
-2. create setters and getters to store the order name, order number, flavor, number of scoops, total price, number of items added, number of scoops tenders added, subtotals
+  - 1. instantiate an object from iceCream class
+  - 2. create setters and getters to store the order name, order number, flavor, number of scoops, total price, number of items added, number of scoops tenders added, subtotals
 
-[TODO]: add the ability to enter other flavors to your order.
+- [TODO]: add the ability to enter other flavors to your order.
 
-[Future]: guard against foreign curencies (unicode validation)
-[Future]: payment verification
-[Future]: offer buyers rewards based on how long they have been in our system
+- [Future]: guard against foreign curencies (unicode validation)
+- [Future]: payment verification
+- [Future]: offer buyers rewards based on how long they have been in our system
 
-## IceCreamDriver2
+## IceCreamDriver2.java
 
 This is the continuation of the ice cream stand.
 I will use the IceCream class to create user defined methods to set and retrieve the values pertaining to the ice cream stand driver.
@@ -285,8 +268,8 @@ To Do:
 - needs to print order object from stack
 - (Completed) the flavor needs to work for the string or the number value
 
-## WilliamsJrS_P3
+## CSC151_P3
 
-This is an ice cream stand, in the next iteration I will use the ice cream class to create user defined methods to set and retrieve the values pertaining to the ice cream stand.
+- This is an ice cream stand, in the next iteration I will use the ice cream class to create user defined methods to set and retrieve the values pertaining to the ice cream stand.
 
-I will add each order to a stack, and ask the user if they would like to create another order.
+- I will add each order to a stack, and ask the user if they would like to create another order.
