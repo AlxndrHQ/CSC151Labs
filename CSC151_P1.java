@@ -3,13 +3,10 @@
 // Tutors?
 
 import java.util.*;
-import java.text.SimpleDateFormat; 
+import java.text.SimpleDateFormat;
 
-
-public class WilliamsJrS_P1
-{
-    public static void main(String[] args)
-    {
+public class CSC151_P1 {
+    public static void main(String[] args) {
         System.out.println("Fall 2019 -- Program 1 by Steven Williams Jr");
 
         // Creates new Scanner object for keyboard
@@ -28,23 +25,15 @@ public class WilliamsJrS_P1
         keyboard.nextLine();// Clears Buffer
         String name = keyboard.nextLine();
 
-        System.out.println(name + ", your inputs were: "
-                            + "\n\ta = " + a 
-                            + "\n\tb = " + b 
-                            + "\n\tr = " + r 
-                            ); 
-                            
+        System.out.println(name + ", your inputs were: " + "\n\ta = " + a + "\n\tb = " + b + "\n\tr = " + r);
+
         int result1 = (int) ((Math.pow(a, 7)) + 5 * 9);
         int result2 = (int) ((Math.pow(a, 4)) - 8 * a * b + (Math.pow(b, 5)));
-        double result3 = ((2*a - 5)/18) + ((3*b -7)/15);
-        double result4 = ((5 * Math.pow(r, 10) + 3)/ 9); 
-                            
-        System.out.println("Calculated results were: "
-                            + "\n\tresult1 = " + result1
-                            + "\n\tresult2 = " + result2
-                            + "\n\tresult3 = " + result3
-                            + "\n\tresult4 = " + result4
-                            );
+        double result3 = ((2 * a - 5) / 18) + ((3 * b - 7) / 15);
+        double result4 = ((5 * Math.pow(r, 10) + 3) / 9);
+
+        System.out.println("Calculated results were: " + "\n\tresult1 = " + result1 + "\n\tresult2 = " + result2
+                + "\n\tresult3 = " + result3 + "\n\tresult4 = " + result4);
 
         System.out.println("Please enter your hometown (City and State): ");
         String hometown = keyboard.nextLine();
@@ -56,11 +45,11 @@ public class WilliamsJrS_P1
 
         System.out.println("Program 1 is completed by Steven Alexander ");
 
-        SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy HH:mm");  
+        SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy HH:mm");
         Date date = new Date();
 
         System.out.println(formatter.format(date));
-        
-        keyboard.close();// Closes keyboard 
+
+        keyboard.close();// Closes keyboard
     }
 }

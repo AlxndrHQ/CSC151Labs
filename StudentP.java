@@ -3,7 +3,7 @@
 * FileName: Student2
 * Purpose: inherited from a Person class, specific to student information
 ================================================================== */
-public class Student2 extends Person {
+public class StudentP extends Person {
     private String major = "Undeclared";// default “Undeclared”
     private String minor = "No Minor";// default “No Minor”
     private double gpa = 0.0;// default “0.00”
@@ -56,6 +56,7 @@ public class Student2 extends Person {
          * firstname and lastname that will separate by a space. [use toString method
          * from super class as the starting]
          */
-        return "Name: " + firstName + " " + lastName + "\tBirth Year: " + yearOfBirth + "\tMoney: " + money + "\tMajor: " + major + "\tMinor: " + minor + "\tGPA: " + gpa;
+        return "Name: " + firstName + " " + lastName + "\tBirth Year: " + yearOfBirth + "\tMoney: " + money
+                + "\tMajor: " + major + "\tMinor: " + minor + "\tGPA: " + gpa;
     }
 }

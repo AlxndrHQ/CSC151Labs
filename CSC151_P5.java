@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class WilliamsJrS_P5 {
+public class CSC151_P5 {
     public static void main(String[] args) throws IOException {
 
         DecimalFormat decimalFormat = new DecimalFormat("#,###.00");// creates new decimalFormat object

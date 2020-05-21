@@ -1,5 +1,4 @@
-public class WilliamsJrS_Car
-{
+public class Car {
     private String make;
     private String model;
     private int year;
@@ -11,33 +10,27 @@ public class WilliamsJrS_Car
         year = 0;
     }
 
-    public void setMake(String m)
-    {
+    public void setMake(String m) {
         make = m;
     }
 
-    public void setModel(String m)
-    {
+    public void setModel(String m) {
         model = m;
     }
 
-    public void setYear(int y)
-    {
+    public void setYear(int y) {
         year = y;
     }
 
-    public String getMake()
-    {
+    public String getMake() {
         return make;
     }
 
-    public String getModel()
-    {
+    public String getModel() {
         return model;
     }
 
-    public int getYear()
-    {
+    public int getYear() {
         return year;
     }
 }

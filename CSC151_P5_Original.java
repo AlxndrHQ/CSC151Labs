@@ -11,7 +11,7 @@ import java.util.*;
 import java.text.*;
 import java.io.*;
 
-public class WilliamsJrS_P5_Original {
+public class CSC151_P5_Original {
     public static void main(String[] args)// Start Main
             throws IOException {
         Scanner keyboard = new Scanner(System.in);// Creates new scanner object

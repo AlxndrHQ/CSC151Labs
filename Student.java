@@ -1,146 +1,68 @@
-import java.text.DecimalFormat;
-
-import jdk.internal.jshell.tool.resources.version;
+import java.text.DecimalFormat;// import decimal format
 
 public class Student {
-    private String firstName;
-    private String lastName;
-    private String message;
-    private int score1;
-    private int score2;
-    private int score3;
-    private int average;
+    DecimalFormat desiFormat = new DecimalFormat("##.##");// creates new decimal format object
 
-    protected final int min = 15;// lowest possible value of random
-    protected final int max = 30;// highest possible value of random
+    private String name;
+    private String major;
+    private String classification;
+    private double gpa;
 
-    DecimalFormat decimalFormat = new DecimalFormat("###.00");// creates new decimalFormat object
-
-    public Student() {// blank student object
-    }
-
-    public Student(String fName, String lName, int s1, int s2, int s3, int newAverage, String newMessage) {
-        firstName = fName;
-        lastName = lName;
-        score1 = s1;
-        score2 = s2;
-        score3 = s3;
-        average = newAverage;
-        message = newMessage;
-    }
-
-    public Student(String fName, String lName, int s1, int s2, int s3) {
-        firstName = fName;
-        lastName = lName;
-        score1 = s1;
-        score2 = s2;
-        score3 = s3;
-    }
-
-    public void setNewAttributes(String fName, String lName, int score1, int score2, int score3, int average,
-            String message) {
-        firstName = fName;
-        lastName = lName;
-        this.score1 = score1;
-        this.score2 = score2;
-        this.score3 = score3;
-        this.average = average;
-        this.message = message;
-    }
-
-    public void reset() {
-        firstName = null;
-        lastName = null;
-        score1 = 0;
-        score2 = 0;
-        score3 = 0;
-        average = 0;
-        message = null;
-    }
-
-    public void setFirstName(String newName) {
-        firstName = newName;
-    }
-
-    public void setLastName(String newName) {
-        lastName = newName;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
+    public WilliamsJrS_Student(String aName, String aMajor, String aClass)
+    {
+        name = aName;
+        major = aMajor;
+        classification = aClass;
     }
 
     public String getName() {
-        return firstName + " " + lastName;
+        return name;
     }
 
-    public void setScore1(int newScore) {
-        score1 = newScore;
+    public String getMajor() {
+        return major;
     }
 
-    public void setScore2(int newScore) {
-        score2 = newScore;
+    public String checkClassification() {
+        return classification;
     }
 
-    public void setScore3() {
-        score3 = (int) (Math.random() * (max - min + 1) + min);// range between 15 and 30;
+    public double getGPA() {
+        return gpa;
     }
 
-    public int getScore3() {
-        return score3;
+    public void setName(String newName) {
+        name = newName;
     }
 
-    public void setScores(int s1, int s2, int s3) {
-        score1 = s1;
-        score2 = s2;
-        score3 = s3;
+    public void switchMajor(String newMajor) {
+        major = newMajor;
     }
 
-    public String getScores() {
-        return score1 + ", " + score2 + ", " + score3;
+    public void updateClassification(String newClass) {
+        classification = newClass;
     }
 
-    public void setAverage(int s1, int s2, int s3) {
-        average = (s1 + s2 + s3) / 3;
+    public void changeGPA(double newGPA) {
+        gpa = newGPA;
     }
 
-    public int getAverage() {
-        return average;
-    }
-
-    public void setMessage() {
-
+    public void calculateGPA(double grade1, double grade2, double grade3, double grade4, double grade5, double grade6) {
         /*
-         * check an average of 3 scores, and print appropriate information for each
-         * average - if average is >= 27, print “Excellence, A” - if average is >=24 but
-         * < 27, print “Good, B” - if average is >=19 but < 24, print “Okay, C” -
-         * otherwise, print “Need Improvement”
+         * Example: 3 points Math course with grade of 80. 5 points Biology course with
+         * grade of 90. 2 points History course with grade of 72.
+         * 
+         * Weighted grade = (w1×g1+ w2×g2+ w3×g3) / (w1+w2+w3) = (3×80+ 5×90+ 2×72) /
+         * (3+5+2) = 83.4
          */
+        gpa = ((3 * grade1) + (3 * grade2) + (3 * grade3) + (4 * grade4) + (2 * grade5) + (1 * grade6))
+                / (3 + 3 + 3 + 4 + 2 + 1);
 
-        if (average >= 27) {
-            message = "Excellence, A";
-        } else if (average >= 24 && average < 27) {
-            message = "Good, B";
-        } else if (average >= 19 && average < 24) {
-            message = "Okay, C";
-        } else {
-            message = "Needs Improvement";
-        }
-    }
-
-    public String getMessage() {
-        return message;
+        // desiFormat.format(gpa);
     }
 
     public String toString() {
-        // return firstName + " " + lastName + " " + score1 + "\t" + score2 + "\t" +
-        // score3;
-        return firstName + " " + lastName + "\t\t" + score1 + ", " + score2 + ", " + score3 + "\t\t\t"
-                + decimalFormat.format(average) + "\t\t\t\t" + message;
+        return "\n\tName: " + name + "\n\t" + "Major: " + major + "\n\t" + "Classification: " + classification + "\n\t"
+                + "GPA: " + desiFormat.format(gpa);
     }
-
 }

@@ -1,17 +1,15 @@
 import java.util.Scanner;// imports Scanner class
 
-public class WilliamsJrS_Lab6
-{
-    public static void main(String[] args)
-    {
-        // creates new WilliamsJrS_TestScore objects for 5 subjects 
+public class CSC151_Lab6 {
+    public static void main(String[] args) {
+        // creates new WilliamsJrS_TestScore objects for 5 subjects
         WilliamsJrS_TestScore math = new WilliamsJrS_TestScore();
         WilliamsJrS_TestScore history = new WilliamsJrS_TestScore();
-        WilliamsJrS_TestScore programming = new WilliamsJrS_TestScore();        
+        WilliamsJrS_TestScore programming = new WilliamsJrS_TestScore();
         WilliamsJrS_TestScore physics = new WilliamsJrS_TestScore();
         WilliamsJrS_TestScore chemistry = new WilliamsJrS_TestScore();
-        
-        Scanner keyboard = new Scanner(System.in);// creates new scanner object 
+
+        Scanner keyboard = new Scanner(System.in);// creates new scanner object
 
         System.out.println("Enter your math course name, and your grade (Between 0 and 4.0)");
         String courseName = keyboard.nextLine();// stores input for courseName
@@ -46,13 +44,14 @@ public class WilliamsJrS_Lab6
         courseScore = keyboard.nextDouble();
         chemistry.setCourseName(courseName);
         chemistry.setCourseScore(courseScore);
-        
 
         // Calculates the student's average for the semester
-        double semesterAverage = (math.getCourseScore() + history.getCourseScore() + programming.getCourseScore() + physics.getCourseScore() + chemistry.getCourseScore())/ 5;// adds up all courseScores and divides by 5
+        double semesterAverage = (math.getCourseScore() + history.getCourseScore() + programming.getCourseScore()
+                + physics.getCourseScore() + chemistry.getCourseScore()) / 5;// adds up all courseScores and divides by
+                                                                             // 5
         System.out.println("The student's average for the current semester is " + semesterAverage);
-        
-        keyboard.close();// Closes keyboard 
+
+        keyboard.close();// Closes keyboard
     }
 
 }

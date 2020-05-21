@@ -3,15 +3,8 @@ import java.util.Scanner;
 import java.util.Stack;
 import java.lang.*;
 
-public class WilliamsJrS_P4 {
+public class CSC151_P4 {
     public static void main(String[] args) {
-        /*
-         * For v2: - instantiate an object from the iceCream class to store the
-         * customers data - at the end, ask if the user would like to place another
-         * order - use user defined setter and getter methods to set and retrieve the
-         * data to the respective class
-         */
-
         Scanner keyboard = new Scanner(System.in);
         DecimalFormat decimalFormat = new DecimalFormat("#,###.00");// creates new Decimal Format object
 
@@ -203,9 +196,10 @@ public class WilliamsJrS_P4 {
             // returns a reciept for what the user ordered
             System.out.println("*************************");
             System.out.println(name + ", here is your reciept: " + "\n\tIce Cream Flavor: " + flavor
-                    + "\n\tNumber of scoops for " + flavor + ": " + noScoops + "\n\tPrice Per Scoop: $" + decimalFormat.format(scoopCost)
-                    + "\n\tTotal Cost: $" + decimalFormat.format(totalCost) + "\n\tTotal amount that you entered: $" + decimalFormat.format(userTender)
-                    + "\n\tChange given: $" + decimalFormat.format(change));
+                    + "\n\tNumber of scoops for " + flavor + ": " + noScoops + "\n\tPrice Per Scoop: $"
+                    + decimalFormat.format(scoopCost) + "\n\tTotal Cost: $" + decimalFormat.format(totalCost)
+                    + "\n\tTotal amount that you entered: $" + decimalFormat.format(userTender) + "\n\tChange given: $"
+                    + decimalFormat.format(change));
             System.out.println("*************************");
 
         } while (!(anotherOrder.equalsIgnoreCase("no")));

@@ -1,7 +1,7 @@
 import java.text.DecimalFormat;// import decimal format
 import java.util.Scanner;// imports scanner class
 
-public class WilliamsJrS_P2
+public class CSC151_P2
 {
     public static void main(String[]args)
     {

@@ -1,30 +1,24 @@
-public class WilliamsJrS_TestScore
-{
+public class TestScore {
     private String courseName;
     private double courseScore;
 
-    public WilliamsJrS_TestScore()
-    {
+    public WilliamsJrS_TestScore(){
 
     }
-    
-    public void setCourseName (String newName)
-    {
+
+    public void setCourseName(String newName) {
         courseName = newName;// passes in newName and sets it to the courseName
     }
 
-    public void setCourseScore (double newS)
-    {
+    public void setCourseScore(double newS) {
         courseScore = newS;// passes in the newScore and set it to the courseScore
     }
 
-    public String getCourseName()
-    {
+    public String getCourseName() {
         return courseName;// returns the courseName
     }
 
-    public double getCourseScore()
-    {
+    public double getCourseScore() {
         return courseScore;// returns the courseScore
     }
 }

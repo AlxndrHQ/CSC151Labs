@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
-public class WilliamsJrS_P5v2 {
+public class CSC151_P5v2 {
     public static void main(String[] args) throws IOException {
         // reads names from file "WilliamsJr_Scores.txt"
         Scanner inputFile = new Scanner(new File("WilliamsJr_Scores.txt"));// reads the file using the Scanner object

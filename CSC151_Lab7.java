@@ -1,14 +1,12 @@
 import java.util.*;// imports all java util classes
-import java.text.SimpleDateFormat; 
+import java.text.SimpleDateFormat;
 
-public class WilliamsJrS_Lab7
-{
-    public static void main(String[] args)
-    {
-        Scanner keyboard = new Scanner(System.in);// Creates new scanner object to accept user input 
+public class CSC151_Lab7 {
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);// Creates new scanner object to accept user input
 
         System.out.println("Steven's Automotive Shop");
-        
+
         // Creates new objects for customer, car, and serviceQuote
         WilliamsJrS_Customer customer = new WilliamsJrS_Customer();
         WilliamsJrS_Car car = new WilliamsJrS_Car();
@@ -25,11 +23,11 @@ public class WilliamsJrS_Lab7
         System.out.println("Enter Car Make: ");
         String make = keyboard.nextLine();
         car.setMake(make);
-        
+
         System.out.println("Enter Car Model: ");
         String model = keyboard.nextLine();
         car.setModel(model);
-        
+
         System.out.println("Enter Car Year: ");
         int year = keyboard.nextInt();
         car.setYear(year);
@@ -42,12 +40,11 @@ public class WilliamsJrS_Lab7
         double laborCharges = keyboard.nextDouble();
         service.setLaborCharges(laborCharges);
 
-
         System.out.println("\nService Estimate ");
         System.out.println("Customer Name: " + customer.getName());
         System.out.println("Customer Address: " + customer.getAddress());
         System.out.println("Customer Phone: " + customer.getPhone());
-        
+
         System.out.println("\nCar Make: " + car.getMake());
         System.out.println("Car Model: " + car.getModel());
         System.out.println("Car Year: " + car.getYear());
@@ -57,11 +54,11 @@ public class WilliamsJrS_Lab7
         System.out.println("Sales Tax: " + service.getSalesTax());
         System.out.println("Total Charges: " + service.getTotalCharges());
 
-        SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy HH:mm");  
-        Date date = new Date();  
+        SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy HH:mm");
+        Date date = new Date();
 
         System.out.println("Lab 6 Program was created by Steven Alexander, [ID], " + formatter.format(date) + ".");
-        
-        keyboard.close();// Closes keyboard 
+
+        keyboard.close();// Closes keyboard
     }
 }
