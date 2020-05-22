@@ -8,7 +8,7 @@ random String generator for name, major, class,
 public class CSC151_P2v2 {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);// Allows for user input
-        Stack<WilliamsJrS_Student> stack = new Stack();// make a new stack (initially empty)
+        Stack<Student> stack = new Stack<Student>();// make a new stack (initially empty)
 
         String userYes = "yes";
         do {
@@ -46,12 +46,12 @@ public class CSC151_P2v2 {
 
             // Create a Student object, called firstStudent_XXX. Pass in appropriate
             // variables
-            WilliamsJrS_Student student = new WilliamsJrS_Student(name, major, classification);
+            var student = new Student(name, major, classification);
             // student.changeGPA(GPA);
             student.calculateGPA(engGrade, commGrade, csGrade, mathGrade, healthGrade, uniGrade);
 
             // Prints out first Student object
-            System.out.println(student.getName() + "'s information: " + student.toString());
+            System.out.println(student.getName() + "'s information: " + student.toString(name));
 
             System.out.println("Would you like to run the test again?");
             keyboard.nextLine();// clears buffer

@@ -1,7 +1,5 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
-import java.util.Stack;
-import java.lang.*;
 
 public class CSC151_P4 {
     public static void main(String[] args) {

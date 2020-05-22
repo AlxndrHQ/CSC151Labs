@@ -1,6 +1,6 @@
 import java.text.DecimalFormat;// import decimal format
 
-public class Student {
+public class StudentB extends Student{
     DecimalFormat desiFormat = new DecimalFormat("##.##");// creates new decimal format object
 
     private String firstName;
@@ -11,7 +11,6 @@ public class Student {
     private String classification;
 
     private double average;
-    private double GPA;
 
     private int score1;
     private int score2;
@@ -30,10 +29,6 @@ public class Student {
     public String toString() {
         return firstName + " " + lastName + "\t" + score1 + ", " + score2 + ", " + score3 + "\t\t\t" + average
                 + "\t\t\t" + message;
-    }
-
-    public String toString(String name) {
-        return  "Name: " + this.name + " Major: " + major + " clasification: " + classification + " GPA: " + GPA;
     }
 
     public void setFirstName(String newName) {
@@ -126,20 +121,24 @@ public class Student {
     }
 
     /**
-     * @param GPA the GPA to set
+     * @param gpa the gpa to set
      * 
-     *            public void setGpa(double GPA) { this.GPA = GPA; }
+     *            public void setGpa(double gpa) { this.gpa = gpa; }
      */
 
-    public void calculateGPA(double grade1, double grade2, double grade3, double grade4, double grade5, double grade6) { 
-        GPA = ((3 * grade1) + (3 * grade2) + (3 * grade3) + (4 * grade4) + (2 * grade5) + (1 * grade6)) / (3 + 3 + 3 + 4 + 2 + 1); 
-    }
-     
+    /*
+     * public void calculateGPA(double grade1, double grade2, double grade3, double
+     * grade4, double grade5, double grade6) { gpa = ((3 * grade1) + (3 * grade2) +
+     * (3 * grade3) + (4 * grade4) + (2 * grade5) + (1 * grade6)) / (3 + 3 + 3 + 4 +
+     * 2 + 1);
+     * 
+     * // desiFormat.format(gpa); }
+     */
 
     /**
-     * @return double return the GPA
+     * @return double return the gpa
      * 
-     *         public double getGpa() { return GPA; }
+     *         public double getGpa() { return gpa; }
      */
 
     /**
@@ -198,38 +197,6 @@ public class Student {
         score1 = 0;
         score2 = 0;
         score3 = 0;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getMajor() {
-        return major;
-    }
-
-    public void setMajor(String major) {
-        this.major = major;
-    }
-
-    public String getClassification() {
-        return classification;
-    }
-
-    public void setClassification(String classification) {
-        this.classification = classification;
-    }
-
-    public double getGPA() {
-        return GPA;
-    }
-
-    public void setGPA(double GPA) {
-        this.GPA = GPA;
     }
 
 }

@@ -3,9 +3,7 @@
 // Location Completed: Dining Room 
 // Tutor?: N/A
 
-import java.lang.*;// imports math class and all its methods 
 import java.util.Scanner;
-import java.text.SimpleDateFormat;
 
 public class CSC151_P1v2 {
     public static void main(String[] args) {

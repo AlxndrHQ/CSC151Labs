@@ -50,7 +50,7 @@ public class algoPractice {
             middle = (first + last) / 2;
 
             /* case: value is found at midpoint */
-            if (array[middle] = value) {
+            if (array[middle] == value) {
                 found = true;// triggers found
                 position = middle;// logs position
             }

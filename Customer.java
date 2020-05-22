@@ -1,12 +1,9 @@
 public class Customer {
-    private String name;
-    private String address;
-    private String phone;
+    private String name = null;
+    private String address = null;
+    private String phone = null;
 
     public void Customer() {
-        name = null;
-        address = null;
-        phone = null;
     }
 
     public void setName(String n) {

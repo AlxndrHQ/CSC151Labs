@@ -117,14 +117,16 @@ I will be recompleting all of my old assignments.
   [Completed]: Name Java Class: Student.java
 - You must name the java driver, program to test your class LASTNAMEfirstInitial_P1.java
   [Completed]: Name driver: CSC152_P1.java
-  [Completed] The first line of your output should state: “I, YOURNAME, did not receive any assistant from anyone other than Dr. Boonthum-Denecke Spring 2020.” [Not tutor help for this because it is CSC 151 concepts][completed] The last line of source code, put a comment “java file name (Student.java), created by YOURNAME and ID, Spring 2020”
+  [Completed] The first line of your output should state: “I, YOURNAME, did not receive any assistant from anyone other than Dr. Boonthum-Denecke Spring 2020.” [Not tutor help for this because it is CSC 151 concepts]
+- [completed] The last line of source code, put a comment “java file name (Student.java), created by YOURNAME and ID, Spring 2020”
 
 [Objectives]:
 
 - (1) Read a list of Students from a file (given on blackboard, “StudentListScores.txt”) – using Scanner object Each line contains 4 columns: firstname, lastname, score1, and score2 (note that score3 will be from Random) It uses “TAB” (or space) as a delimiter.
   - [Completed]: Create Scanner object which will read data from a file: "StudentListScores.txt"
 - (2) For each Student in the list, it will
-  - (3) use Random number class to generate an integer between 15 and 30 (include 30), and this will be score3. -[Completed]: use Math.Random to generate int between 15 and 30 assign to score3
+  - (3) use Random number class to generate an integer between 15 and 30 (include 30), and this will be score3.
+  - [Completed]: use Math.Random to generate int between 15 and 30 assign to score3
   - (4) [Completed]: create aStudent object using information reading from a file (fName, lName, score1, and score2) and random value of score3
   - (5) [Completed]: check an average of 3 scores, and print appropriate information for each average
     - if average is >= 27, print “Excellence, A”

@@ -2,12 +2,12 @@ import java.util.Scanner;// imports Scanner class
 
 public class CSC151_Lab6 {
     public static void main(String[] args) {
-        // creates new WilliamsJrS_TestScore objects for 5 subjects
-        WilliamsJrS_TestScore math = new WilliamsJrS_TestScore();
-        WilliamsJrS_TestScore history = new WilliamsJrS_TestScore();
-        WilliamsJrS_TestScore programming = new WilliamsJrS_TestScore();
-        WilliamsJrS_TestScore physics = new WilliamsJrS_TestScore();
-        WilliamsJrS_TestScore chemistry = new WilliamsJrS_TestScore();
+        // creates new TestScore objects for 5 subjects
+        var math = new TestScore();
+        var history = new TestScore();
+        var programming = new TestScore();
+        var physics = new TestScore();
+        var chemistry = new TestScore();
 
         Scanner keyboard = new Scanner(System.in);// creates new scanner object
 

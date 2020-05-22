@@ -4,19 +4,6 @@ import java.util.Stack;
 
 public class IceCreamDriver {
     public static void main(String[] args) {
-        /*
-         * For v1: // Write an ice-cream store application that asks the customer a
-         * flavor of ice-cream (each has a different price), // ask how many scoops, //
-         * input a bill used to pay for selected ice-cream, // find the correct change.
-         */
-ÍÍ
-        /*
-         * For v2: - instantiate an object from the iceCream class to store the
-         * customers data - at the end, ask if the user would like to place another
-         * order - use user defined setter and getter methods to set and retrieve the
-         * data to the respective class
-         */
-
         Scanner keyboard = new Scanner(System.in);
         DecimalFormat decimalFormat = new DecimalFormat("#,###.##");// creates new Decimal Format object
         // Stack<IceCream> stack = new Stack();// creates new stack to hold each order

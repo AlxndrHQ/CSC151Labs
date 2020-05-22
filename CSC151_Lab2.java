@@ -1,5 +1,3 @@
-import java.util.Scanner;// import scanner object 
-
 public class CSC151_Lab2 {
     public static void main(String[] args) {
         // Part A -- Variables and Literals

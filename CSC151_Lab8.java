@@ -5,11 +5,11 @@ public class CSC151_Lab8 {
         Scanner keyboard = new Scanner(System.in);
 
         // Creates new objects for kitchen, bedroom, living room, and dining room
-        WilliamsJrS_Rectangle kitchen = new WilliamsJrS_Rectangle();
-        WilliamsJrS_Rectangle livingRoom = new WilliamsJrS_Rectangle();
-        WilliamsJrS_Rectangle diningRoom = new WilliamsJrS_Rectangle();
-        WilliamsJrS_Rectangle bedRoom = new WilliamsJrS_Rectangle();
-        WilliamsJrS_Rectangle bathRoom = new WilliamsJrS_Rectangle();
+        var kitchen = new Rectangle();
+        var livingRoom = new Rectangle();
+        var diningRoom = new Rectangle();
+        var bedRoom = new Rectangle();
+        var bathRoom = new Rectangle();
 
         // sets length and width of bathroom
         bathRoom.setLength(12.5);

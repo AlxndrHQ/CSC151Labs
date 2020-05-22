@@ -1,11 +1,9 @@
-import java.util.Scanner;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.text.DecimalFormat;
-import java.util.Random;
-import java.io.File;
+import java.util.Scanner;
 
 public class CSC152_P1 {
     public static void main(String[] args) throws IOException {
@@ -33,8 +31,9 @@ public class CSC152_P1 {
                 + "Name \t\t\t Scores \t\t\t Average \t\t\t Message\n"
                 + "======================================================================================================================");
 
+               
         while (inputScanner.hasNext()) {
-            Student aStudent = new Student();// creates blank student object
+            var aStudent = new Student();// creates blank student object
 
             firstName = inputScanner.next();// holds firstName
             lastName = inputScanner.next();// holds lastName
@@ -45,9 +44,11 @@ public class CSC152_P1 {
             /* adds attributes to aStudent object */
             aStudent.setFirstName(firstName);
             aStudent.setLastName(lastName);
+            aStudent.setScore1(score1);
+            aStudent.setScore2(score2);
             aStudent.setScore3();// generates random int between 15 and 30
-            aStudent.setScores(score1, score2, aStudent.getScore3());
-            aStudent.setAverage(score1, score2, aStudent.getScore3());
+            // aStudent.setScores(score1, score2, aStudent.getScore3());
+            aStudent.setAverage(aStudent.getScore1(), aStudent.getScore2(), aStudent.getScore3());
             aStudent.setMessage();// uses scores to generate message
 
             /* Printing */
@@ -55,16 +56,15 @@ public class CSC152_P1 {
             printWriter.println(aStudent.toString());// prints aStudent object to CSC152_P1Output.txt
 
             /*
-             * Update data file by adding two student records (2 lines) at the end of the
-             * given data file: one student with your information and another student with
-             * your friends information. You can use any scores between 20-30 for score1 and
-             * score2.
+             * add two student records (2 lines) at the end of the given data file: one
+             * student with your information and another student with your friends
+             * information. You can use any scores between 20-30 for score1 and score2.
              */
 
             while (numStudents >= 7 && numStudents < 9) {
                 /* Student 1 */
                 aStudent.reset();// resets the aStudent object
-                aStudent.setScore3();// generates random integer
+                aStudent.setScore3();// generates random integer between 15 and 30
                 aStudent.setAverage(27, 21, aStudent.getScore3());// sets new average
                 aStudent.setMessage();// runs method to set message
                 aStudent.setNewAttributes("Steven", "Alexander", 27, 21, aStudent.getScore3(), aStudent.getAverage(),

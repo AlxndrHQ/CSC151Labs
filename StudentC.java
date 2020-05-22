@@ -1,14 +1,14 @@
 /* =================================================================
 * CSC 152 Program Assignment 2 – Inheritance, Spring 2020 - section
-* FileName: Student2
+* FileName: StudentC
 * Purpose: inherited from a Person class, specific to student information
 ================================================================== */
-public class StudentP extends Person {
+public class StudentC extends Person {
     private String major = "Undeclared";// default “Undeclared”
     private String minor = "No Minor";// default “No Minor”
     private double gpa = 0.0;// default “0.00”
 
-    public Student2 (String firstName, String lastName, int bYear, double money){
+    public StudentC (String firstName, String lastName, int bYear, double money){
         super(firstName, lastName, bYear, money);// reintroduces variables from superclass
         super.firstName = firstName;
         super.lastName = lastName;
@@ -16,7 +16,7 @@ public class StudentP extends Person {
         super.money = money;
     }
 
-    public Student2 (String firstName, String lastName, int bYear, double money, String major, double gpa) {
+    public StudentC (String firstName, String lastName, int bYear, double money, String major, double gpa) {
         super(firstName, lastName, bYear, money);// reintroduces variables from superclass
         super.firstName = firstName;
         super.lastName = lastName;
@@ -56,6 +56,7 @@ public class StudentP extends Person {
          * firstname and lastname that will separate by a space. [use toString method
          * from super class as the starting]
          */
+        super(firstName, lastName, yearOfBirth, money);// reintroduces variables from superclass
         return "Name: " + firstName + " " + lastName + "\tBirth Year: " + yearOfBirth + "\tMoney: " + money
                 + "\tMajor: " + major + "\tMinor: " + minor + "\tGPA: " + gpa;
     }
