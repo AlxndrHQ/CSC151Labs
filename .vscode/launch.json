@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CSC152_P4",
+            "request": "launch",
+            "mainClass": "CSC152_P4",
+            "projectName": "CSC Projects_a22127f0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CSC151_P2",
             "request": "launch",
             "mainClass": "CSC151_P2",
