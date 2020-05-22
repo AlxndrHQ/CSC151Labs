@@ -1,8 +1,8 @@
 import java.io.File;
 import java.io.IOException;
-import java.util.Scanner;
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
+import java.util.Scanner;
 
 /* =================================================================
 * CSC 152 Program Assignment 3 – Array, Searching, Sorting
@@ -343,7 +343,10 @@ public class CSC152_P3 {
                 }
             }
 
-            /* Reset unfilledArray: Copy elements from original unsorted array to unfilledArray */
+            /*
+             * Reset unfilledArray: Copy elements from original unsorted array to
+             * unfilledArray
+             */
             for (index = 0; index < myUnsortedIntegers.length; index++) {
                 unfilledArray[index] = myUnsortedIntegers[index];
             }
@@ -384,6 +387,12 @@ public class CSC152_P3 {
             keyboard.close();// closes keyboard object
             inputScanner.close();// stops reading from inputScanner
 
+        } catch (InputMismatchException e) {
+            e.printStackTrace();
+        } catch (NoSuchElementException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
         }
