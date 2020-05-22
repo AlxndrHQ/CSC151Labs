@@ -21,11 +21,11 @@ public class CSC151_P2
         double GPA = keyboard.nextDouble();
 
         // Create a Student object, called firstStudent_XXX. Pass in appropriate variables
-        WilliamsJrS_Student firstStudent = new WilliamsJrS_Student(name, major, classification);
-        firstStudent.changeGPA(GPA);
+        var firstStudent = new Student(name, major, classification);
+        firstStudent.setGPA(GPA);
 
         // Prints out first Student object
-        System.out.println("Student 1 information: " + firstStudent.toString());
+        System.out.println("Student 1 information: " + firstStudent.toString(name));
 
 
 
@@ -66,7 +66,7 @@ public class CSC151_P2
 
 
         //Create a second Student object, called secondStudent_XXX. Hard code the appropriate parameters – using your own information.
-        WilliamsJrS_Student secondStudent = new WilliamsJrS_Student(name, major, classification);
+        var secondStudent = new Student(name, major, classification);
         secondStudent.calculateGPA(engGrade, commGrade, csGrade, mathGrade, healthGrade, uniGrade);
 
         System.out.println(secondStudent.getName() + "'s information: " + secondStudent.toString());
@@ -74,9 +74,9 @@ public class CSC151_P2
         System.out.println("Enter " + secondStudent.getName() + "'s new major: ");
         keyboard.nextLine();// clears buffer
         major = keyboard.nextLine();
-        secondStudent.switchMajor(major);
+        secondStudent.setMajor(major);
 
-        System.out.println(secondStudent.getName() + "'s updated information: " + secondStudent.toString());
+        System.out.println(secondStudent.getName() + "'s updated information: " + secondStudent.toString(name));
         
         keyboard.close();// closes keyboard object
     }

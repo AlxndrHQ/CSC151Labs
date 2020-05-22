@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CSC151_P2",
+            "request": "launch",
+            "mainClass": "CSC151_P2",
+            "projectName": "CSC Projects_a22127f0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CSC151_Lab8",
+            "request": "launch",
+            "mainClass": "CSC151_Lab8",
+            "projectName": "CSC Projects_a22127f0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CSC151_Lab7",
             "request": "launch",
             "mainClass": "CSC151_Lab7",
