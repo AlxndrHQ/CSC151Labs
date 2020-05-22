@@ -5,6 +5,17 @@ CSC 151/2 Labs
 This will be a collection of all of the labs, projects, and classes that I was given during CSC151 & CSC152.
 I will be recompleting all of my old assignments.
 
+## CSC 152 - Programming Assignment 4
+
+- goal: create a palinndrome checker ( Palindrome -- reading forward and backward, you will get the same sequence )
+
+- [Completed] 1.  You will ask a user to type in names, "DONE" (ignore case) to stop the input
+- [Review] 2.  As the user enter names and those will to be added to a stack and a queue, except "DONE"
+- [InProgress] 3.  Then as you removing an element out one from stack and one from queue, you will compare if the value is the same (ignore case).
+  - ==>> If NOT, then that sequential of names are not palindrome
+  - ==>> once you remove all items from stack and queue, they the same, then sequential is a palindrome.
+- 4. allow the user to repeat the process, and they can enter Yes, No, Y or N only (other input, as to reenter, and ignore case)
+
 ## CSC 152 - Programming Assignment 3
 
 [Completed] name the class sortNsearch.java
