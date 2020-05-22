@@ -1,10 +1,8 @@
 public class ServiceQuote {
-    private double partsCharges;
-    private double laborCharges;
+    private double partsCharges = 0.0;
+    private double laborCharges = 0.0;
 
     public void ServiceQuote() {
-        partsCharges = 0.0;
-        laborCharges = 0.0;
     }
 
     public void setPartsCharges(double c) {
