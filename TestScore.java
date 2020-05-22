@@ -2,7 +2,7 @@ public class TestScore {
     private String courseName;
     private double courseScore;
 
-    public WilliamsJrS_TestScore(){
+    public TestScore(){
 
     }
 
