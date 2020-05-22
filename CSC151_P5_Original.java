@@ -7,9 +7,10 @@ Location Completed: Personal Laptop @ Home
 Description about this file: 
 
 */
-import java.util.*;
-import java.text.*;
-import java.io.*;
+import java.io.File;
+import java.io.IOException;
+import java.text.DecimalFormat;
+import java.util.Scanner;
 
 public class CSC151_P5_Original {
     public static void main(String[] args)// Start Main
@@ -83,6 +84,7 @@ public class CSC151_P5_Original {
         System.out.println("\tAverage = " + scoreFormat.format(classAverage));
         System.out.println("========================================================================");
         System.out.println("Program completed by Steven Williams Jr, CSC 151 Fall 2019");
-
+        
+        keyboard.close();
     }// end main
 }
