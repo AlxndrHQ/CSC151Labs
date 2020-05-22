@@ -8,9 +8,9 @@ public class CSC151_Lab7 {
         System.out.println("Steven's Automotive Shop");
 
         // Creates new objects for customer, car, and serviceQuote
-        WilliamsJrS_Customer customer = new WilliamsJrS_Customer();
-        WilliamsJrS_Car car = new WilliamsJrS_Car();
-        WilliamsJrS_ServiceQuote service = new WilliamsJrS_ServiceQuote();
+        var customer = new Customer();
+        var car = new Car();
+        var service = new ServiceQuote();
 
         System.out.println("Enter the customer's name: ");
         String name = keyboard.nextLine();// will store user's name
@@ -57,7 +57,7 @@ public class CSC151_Lab7 {
         SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy HH:mm");
         Date date = new Date();
 
-        System.out.println("Lab 6 Program was created by Steven Alexander, [ID], " + formatter.format(date) + ".");
+        System.out.println("Lab 7 Program was created by Steven Alexander, [ID], " + formatter.format(date) + ".");
 
         keyboard.close();// Closes keyboard
     }

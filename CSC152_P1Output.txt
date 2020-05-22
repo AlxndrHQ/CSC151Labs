@@ -575,3 +575,531 @@ Brook Addisu		22, 25, 28			25.00				Good, B
 
 						There are 9 students in this list. 
 
+						Steven Williams Jr Class
+
+Name 			 Scores 			 Average 			 Message
+======================================================================================================================
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+						There are 9 students in this list. 
+
+						Steven Williams Jr Class
+
+Name 			 Scores 			 Average 			 Message
+======================================================================================================================
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+						There are 9 students in this list. 
+
+						Steven Williams Jr Class
+
+Name 			 Scores 			 Average 			 Message
+======================================================================================================================
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+						There are 9 students in this list. 
+
+						Steven Williams Jr Class
+
+Name 			 Scores 			 Average 			 Message
+======================================================================================================================
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+						There are 9 students in this list. 
+
+						Steven Williams Jr Class
+
+Name 			 Scores 			 Average 			 Message
+======================================================================================================================
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+						There are 9 students in this list. 
+
+						Steven Williams Jr Class
+
+Name 			 Scores 			 Average 			 Message
+======================================================================================================================
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+						There are 9 students in this list. 
+
+						Steven Williams Jr Class
+
+Name 			 Scores 			 Average 			 Message
+======================================================================================================================
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+						There are 9 students in this list. 
+
+						Steven Williams Jr Class
+
+Name 			 Scores 			 Average 			 Message
+======================================================================================================================
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+	Name: null
+	Major: null
+	Classification: null
+	GPA: 0
+
+						There are 9 students in this list. 
+
+						Steven Williams Jr Class
+
+Name 			 Scores 			 Average 			 Message
+======================================================================================================================
+null	0, 0, 45	30.0	Excellence, A
+null	0, 0, 45	31.0	Excellence, A
+null	0, 0, 45	33.0	Excellence, A
+null	0, 0, 45	26.0	Good, B
+null	0, 0, 45	32.0	Excellence, A
+null	0, 0, 45	32.0	Excellence, A
+null	0, 0, 45	24.0	Good, B
+null	27, 21, 45	31.0	Excellence, A
+null	22, 25, 45	30.0	Excellence, A
+
+						There are 9 students in this list. 
+
+						Steven Williams Jr Class
+
+Name 			 Scores 			 Average 			 Message
+======================================================================================================================
+Jenny Johnson			0, 0, 45			30.0			Excellence, A
+Tommy Lee-Jones			0, 0, 45			31.0			Excellence, A
+Sara Cohen			0, 0, 45			33.0			Excellence, A
+Tom Brown			0, 0, 45			26.0			Good, B
+Janah Plump			0, 0, 45			32.0			Excellence, A
+Stephany Spills			0, 0, 45			32.0			Excellence, A
+Penny Manny			0, 0, 45			24.0			Good, B
+Steven Alexander			27, 21, 45			31.0			Excellence, A
+Brook Addisu			22, 25, 45			30.0			Excellence, A
+
+						There are 9 students in this list. 
+
+						Steven Williams Jr Class
+
+Name 			 Scores 			 Average 			 Message
+======================================================================================================================
+Jenny Johnson	0, 0, 45			30.0			Excellence, A
+Tommy Lee-Jones	0, 0, 45			31.0			Excellence, A
+Sara Cohen	0, 0, 45			33.0			Excellence, A
+Tom Brown	0, 0, 45			26.0			Good, B
+Janah Plump	0, 0, 45			32.0			Excellence, A
+Stephany Spills	0, 0, 45			32.0			Excellence, A
+Penny Manny	0, 0, 45			24.0			Good, B
+Steven Alexander	27, 21, 45			31.0			Excellence, A
+Brook Addisu	22, 25, 45			30.0			Excellence, A
+
+						There are 9 students in this list. 
+
+						Steven Williams Jr Class
+
+Name 			 Scores 			 Average 			 Message
+======================================================================================================================
+Jenny Johnson	0, 0, 45			30.0			Excellence, A
+Tommy Lee-Jones	0, 0, 45			31.0			Excellence, A
+Sara Cohen	0, 0, 45			33.0			Excellence, A
+Tom Brown	0, 0, 45			26.0			Good, B
+Janah Plump	0, 0, 45			32.0			Excellence, A
+Stephany Spills	0, 0, 45			32.0			Excellence, A
+Penny Manny	0, 0, 45			24.0			Good, B
+Steven Alexander	27, 21, 45			31.0			Excellence, A
+Brook Addisu	22, 25, 45			30.0			Excellence, A
+
+						There are 9 students in this list. 
+
+						Steven Williams Jr Class
+
+Name 			 Scores 			 Average 			 Message
+======================================================================================================================
+Jenny Johnson	20, 27, 45			30.0			Excellence, A
+Tommy Lee-Jones	25, 23, 45			31.0			Excellence, A
+Sara Cohen	24, 30, 45			33.0			Excellence, A
+Tom Brown	19, 15, 45			26.0			Good, B
+Janah Plump	29, 22, 45			32.0			Excellence, A
+Stephany Spills	21, 30, 45			32.0			Excellence, A
+Penny Manny	12, 15, 45			24.0			Good, B
+Steven Alexander	27, 21, 45			31.0			Excellence, A
+Brook Addisu	22, 25, 45			30.0			Excellence, A
+
+						There are 9 students in this list. 
+
+						Steven Williams Jr Class
+
+Name 			 Scores 			 Average 			 Message
+======================================================================================================================
+Jenny Johnson	20, 27, 21			22.0			Okay, C
+Tommy Lee-Jones	25, 23, 29			25.0			Good, B
+Sara Cohen	24, 30, 42			32.0			Excellence, A
+Tom Brown	19, 15, 20			18.0			Need Improvement
+Janah Plump	29, 22, 38			29.0			Excellence, A
+Stephany Spills	21, 30, 15			22.0			Okay, C
+Penny Manny	12, 15, 35			20.0			Okay, C
+Steven Alexander	27, 21, 42			30.0			Excellence, A
+Brook Addisu	22, 25, 16			21.0			Okay, C
+
+						There are 9 students in this list. 
+
+						Steven Williams Jr Class
+
+Name 			 Scores 			 Average 			 Message
+======================================================================================================================
+Jenny Johnson	20, 27, 22			23.0			Okay, C
+Tommy Lee-Jones	25, 23, 41			29.0			Excellence, A
+Sara Cohen	24, 30, 19			24.0			Good, B
+Tom Brown	19, 15, 17			17.0			Need Improvement
+Janah Plump	29, 22, 24			25.0			Good, B
+Stephany Spills	21, 30, 29			26.0			Good, B
+Penny Manny	12, 15, 28			18.0			Need Improvement
+Steven Alexander	27, 21, 19			22.0			Okay, C
+Brook Addisu	22, 25, 20			22.0			Okay, C
+
+						There are 9 students in this list. 
+
