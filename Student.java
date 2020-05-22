@@ -8,7 +8,7 @@ public class Student {
     private String classification;
     private double gpa;
 
-    public WilliamsJrS_Student(String aName, String aMajor, String aClass)
+    public Student(String aName, String aMajor, String aClass)
     {
         name = aName;
         major = aMajor;
