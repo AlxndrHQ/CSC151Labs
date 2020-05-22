@@ -3,16 +3,8 @@ import java.util.Scanner;
 import java.util.Stack;
 import java.lang.*;
 
-public class IceCreamDriverv3
-{
-    public static void main(String[] args)
-    {
-        /*
-         * For v2: - instantiate an object from the iceCream class to store the
-         * customers data - at the end, ask if the user would like to place another
-         * order - use user defined setter and getter methods to set and retrieve the
-         * data to the respective class
-         */
+public class IceCreamDriverv3 {
+    public static void main(String[] args) {
 
         Scanner keyboard = new Scanner(System.in);
         DecimalFormat decimalFormat = new DecimalFormat("#,###.00");// creates new Decimal Format object
@@ -102,7 +94,7 @@ public class IceCreamDriverv3
             System.out.println("Please enter your bill ($1, $5, $10, $20)");
             bill = keyboard.nextInt();
 
-             do {// used as long as the bill is not a 0, 1, 5, 10, or 20
+            do {// used as long as the bill is not a 0, 1, 5, 10, or 20
 
                 System.out.println("Please enter only a $1, $5, $10, or $20");
                 bill = keyboard.nextInt();
@@ -115,9 +107,10 @@ public class IceCreamDriverv3
 
             while ((bill == 0 || bill == 1 || bill == 5 || bill == 10 || bill == 20)) {
 
-                 do {
-                    
-                    System.out.println("Please enter an additional $" + decimalFormat.format(remaining) + " to complete your order");
+                do {
+
+                    System.out.println("Please enter an additional $" + decimalFormat.format(remaining)
+                            + " to complete your order");
                     bill = keyboard.nextInt();
                     userTender += bill;// adds the bill entered to the user's tender
                     System.out.println("You have entered $" + userTender + " in total.");
@@ -129,7 +122,7 @@ public class IceCreamDriverv3
 
                 } while (remaining > 0.0);
 
-                if (userTender > remaining) {// userTender was larger than cost 
+                if (userTender > remaining) {// userTender was larger than cost
                     change = (float) userTender - totalCost;// a floating-point representing a change after paying for
                                                             // this ice-cream cone
                     break;
