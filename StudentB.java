@@ -1,11 +1,14 @@
 import java.text.DecimalFormat;// import decimal format
 
-public class StudentB {
+public class StudentB extends Student{
     DecimalFormat desiFormat = new DecimalFormat("##.##");// creates new decimal format object
 
     private String firstName;
+    private String name;
     private String lastName;
     private String message;
+    private String major;
+    private String classification;
 
     private double average;
 
