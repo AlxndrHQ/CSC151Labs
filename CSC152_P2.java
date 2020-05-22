@@ -1,4 +1,3 @@
-import java.util.Random;
 import java.util.Scanner;
 
 public class CSC152_P2 {
@@ -17,11 +16,11 @@ public class CSC152_P2 {
         final int max = 50;
 
         /* Creates 5 new objects */
-        Person aPerson = new Person("Bob", "Builder", 1970);// creates new person object
-        Student2 aStudent = new Student2("Steven", "Alexander", 1998, 50000, "Communications", 3.45) ;// creates new student object
-        Student2 bStudent = new Student2("Brook", "Addisu", 1998, 30000, "Entrepreneurship", 3.50);// creates new student object
-        Faculty aFaculty = new Faculty("Chituma", "Boontum", 1960, 45000, "Computer Science", "Professor");// creates new Faculty object
-        Faculty bFaculty = new Faculty("James", "Ford", 1955, 50000, "Scripps", "Professor");// creates new faculty object
+        var aPerson = new Person("Bob", "Builder", 1970);// creates new person object
+        var aStudent = new StudentP("Steven", "Alexander", 1998, 50000.00, "Communications", 3.45) ;// creates new student object
+        var bStudent = new StudentP("Brook", "Addisu", 1998, 30000.00, "Entrepreneurship", 3.50);// creates new student object
+        var aFaculty = new Faculty("Chituma", "Boontum", 1960, 45000, "Computer Science", "Professor");// creates new Faculty object
+        var bFaculty = new Faculty("James", "Ford", 1955, 50000, "Scripps", "Professor");// creates new faculty object
 
         /* Prints objects */
         System.out.println(aPerson.toString());
@@ -45,5 +44,8 @@ public class CSC152_P2 {
         int hours = (int) (Math.random() * (max - min + 1) + min);// range between 30 and 50
         bStudent.work(hours, 12.50);
         System.out.println(bStudent.toString());// print status of current object 
+
+        keyboard.close();// closed keyboard
+        
     }
 }
