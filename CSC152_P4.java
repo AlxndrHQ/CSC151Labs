@@ -24,14 +24,14 @@ public class CSC152_P4 {
             }
             
             stack.add(word);// adds word to stack 
-            queue.add(word);// adds word to queue
+            // queue.add(word);// adds word to queue
 
         } while (!(word.equalsIgnoreCase("done")));
 
         /*Then as you removing an element out one from stack and one from queue, you will compare if the value is the same (ignore case) */
         boolean isPalindrome = false;
-        while(!(stack.isEmpty()){
-            String check = stack.peek;
+        while(!(stack.isEmpty())){
+            String check = stack.peek();
             if (check.equalsIgnoreCase(word)){
                 isPalindrome = true;// true flag for palindrome
                 break;
