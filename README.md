@@ -11,7 +11,7 @@ I will be recompleting all of my old assignments.
 
 - [Completed] 1.  You will ask a user to type in names, "DONE" (ignore case) to stop the input
 - [Completed] 2.  As the user enter names and those will to be added to a stack and a queue, except "DONE"
-- [TODO] 3.  Then as you removing an element out one from stack and one from queue, you will compare if the value is the same (ignore case).
+- [Completed] 3.  Then as you removing an element out one from stack and one from queue, you will compare if the value is the same (ignore case).
   - ==>> If NOT, then that sequential of names are not palindrome
   - ==>> once you remove all items from stack and queue, they the same, then sequential is a palindrome.
 - [Completed] 4. allow the user to repeat the process, and they can enter Yes, No, Y or N only (other input, as to reenter, and ignore case)
@@ -73,7 +73,7 @@ I will be recompleting all of my old assignments.
 
 ## sortAndSearch.java
 
-[Completed] This class, you will take the source codes that we discussed about sorting and searching (from your textbook). Make sure that they are static methods so you can call them directly from your driver.
+- [Completed] This class, you will take the source codes that we discussed about sorting and searching (from your textbook). Make sure that they are static methods so you can call them directly from your driver.
 
 - IntSequentialSearch : this is a sequential search method with 2 parameters (integer array and integer value for search) and then will return the position where the first occurrence is found or -1 when it is not found.
 - IntBinarySearch_XXXX : this is a binary search method with 2 parameters (sorted integer array and integer value for search) and then will return the position where the first occurrence is found or -1 when it is not found.
@@ -149,7 +149,8 @@ I will be recompleting all of my old assignments.
 - [Completed](7) Update data file by adding two student records (2 lines) at the end of the given data file:
   one student with your information and another student with your friends information.
   You can use any scores between 20-30 for score1 and score2.
-  RE-RUN your program and take another screenshot of the output. [So, you should have 2 screenshot, one is with the original data, and the second one is of the new data set once you add another record to your data file] -[Completed]: print student information to CSC152_P1Output.txt
+  RE-RUN your program and take another screenshot of the output. [So, you should have 2 screenshot, one is with the original data, and the second one is of the new data set once you add another record to your data file] 
+  - [Completed]: print student information to CSC152_P1Output.txt
 
 [Future]
 
@@ -184,7 +185,8 @@ I will be recompleting all of my old assignments.
 - [Completed]: Print class average score (all students average)
 - [Completed]: Print total number of students in class
 
-- (4) You will also write the exact same output you print on the screen to a file call, LastnameFirstInit_P5Output.txt -[Completed]: write stats to file: "WilliamsJrS_P5Output.txt"
+- (4) You will also write the exact same output you print on the screen to a file call, LastnameFirstInit_P5Output.txt 
+- [Completed]: write stats to file: "WilliamsJrS_P5Output.txt"
 
 [Future]:
 

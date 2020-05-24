@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class CSC151_P5v2 {
     public static void main(String[] args) throws IOException {
-        // reads names from file "WilliamsJr_Scores.txt"
+        /* reads names from file "WilliamsJr_Scores.txt" */
         Scanner inputFile = new Scanner(new File("WilliamsJr_Scores.txt"));// reads the file using the Scanner object
         PrintWriter printWriter = new PrintWriter("WilliamsJrS_P5Outputv2.txt");// prints to a text file
 
