@@ -288,3 +288,18 @@ To Do:
 - This is an ice cream stand, in the next iteration I will use the ice cream class to create user defined methods to set and retrieve the values pertaining to the ice cream stand.
 
 - I will add each order to a stack, and ask the user if they would like to create another order.
+
+## CSC151_P1 (C#)
+
+- [Completed] Rename Filename and Class name (CSC151_P1.cs)
+- [TODO] Read 3 numbers and a String from a keyboard using Scanner class (a, b, r and name) – a and b are integer, r is a double, and name is a String.
+- [TODO] Calculate 4 results – make sure to use appropriate expression and Math function when appropriate.
+  - int result1 = a 7 + 5 * 9;
+  - int result2 = a 4 - 8ab + b 5;
+  - double result3 = (2a − 5)/18 + (3b − 7)/15
+  - double result4 = (5 * r^10 +3)/ 9;
+- [TODO] String Manipulation:
+  - i. Ask user to enter their hometown (city and state) in one variable
+  - ii. Print the hometown in ALL UPPERCASE
+  - iii. Print the hometown in all lowercase iv. Print the last character of hometown in UPPERCASE
+ 
