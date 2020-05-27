@@ -1,0 +1,4 @@
+/Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/obj/Debug/netcoreapp3.1/CSProjects.csprojAssemblyReference.cache
+/Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/obj/Debug/netcoreapp3.1/CSProjects.AssemblyInfoInputs.cache
+/Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/obj/Debug/netcoreapp3.1/CSProjects.AssemblyInfo.cs
+/Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/obj/Debug/netcoreapp3.1/CSProjects.csproj.CoreCompileInputs.cache
