@@ -20,7 +20,7 @@
       "outputPath": "/Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/StevenJr./.config/NuGet/NuGet.Config"
+        "/Users/StevenJr./.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

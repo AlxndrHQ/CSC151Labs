@@ -69,7 +69,7 @@ public class CSC151_P2
         var secondStudent = new Student(name, major, classification);
         secondStudent.calculateGPA(engGrade, commGrade, csGrade, mathGrade, healthGrade, uniGrade);
 
-        System.out.println(secondStudent.getName() + "'s information: " + secondStudent.toString());
+        System.out.println(secondStudent.getName() + "'s information: " + secondStudent.toString(name));
 
         System.out.println("Enter " + secondStudent.getName() + "'s new major: ");
         keyboard.nextLine();// clears buffer

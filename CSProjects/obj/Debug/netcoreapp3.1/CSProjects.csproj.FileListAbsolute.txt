@@ -2,3 +2,11 @@
 /Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/obj/Debug/netcoreapp3.1/CSProjects.AssemblyInfoInputs.cache
 /Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/obj/Debug/netcoreapp3.1/CSProjects.AssemblyInfo.cs
 /Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/obj/Debug/netcoreapp3.1/CSProjects.csproj.CoreCompileInputs.cache
+/Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/bin/Debug/netcoreapp3.1/CSProjects.deps.json
+/Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/bin/Debug/netcoreapp3.1/CSProjects.runtimeconfig.json
+/Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/bin/Debug/netcoreapp3.1/CSProjects.runtimeconfig.dev.json
+/Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/bin/Debug/netcoreapp3.1/CSProjects.dll
+/Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/bin/Debug/netcoreapp3.1/CSProjects.pdb
+/Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/obj/Debug/netcoreapp3.1/CSProjects.dll
+/Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/obj/Debug/netcoreapp3.1/CSProjects.pdb
+/Users/StevenJr./Desktop/Tech/Projects/CSC Projects/CSProjects/obj/Debug/netcoreapp3.1/CSProjects.genruntimeconfig.cache
