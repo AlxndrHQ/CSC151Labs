@@ -1,0 +1,20 @@
+1) You will ask a user to type in names, "DONE" (ignore case) to stop the input
+2) As the user enter names and those will to be added to a stack and a queue, except "DONE"
+3) Then as you removing an element out one from stack and one from queue, you will compare if the value is the same (ignore case).
+==>> If NOT, then that sequential of names are not palindrome
+==>> once you remove all items from stack and queue, they the same, then sequential
+is a palindrome.
+4) allow the user to repeat the process, and they can enter Yes, No, Y or N only (other
+input, as to reenter, and ignore case)
+
+================== Example Input / Output 
+Welcome to YOUR FULL NAME Palindrome Check
+Please enter names ("DONE" to stop): FUN SUN FUN STOP
+FUN SUN FUN -- This is a palindrome
+You want to check another sequence? (Yes or No): Yes
+
+Please enter names ("DONE" to stop): SARA JAME TIM STOP
+SARA JAME TIM -- This is a NOT palindrome
+You want to check another sequence? (Yes or No): N
+You have run 2 tests: 1 is palindrome and 1 is NOT palindrome.
+Thank you for checking out the system.
